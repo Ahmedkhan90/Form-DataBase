@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="head" style="margin-top: -10%;">
+        <div class="signInPage">
+            <a class="topBtn" href="login.html">
+                Sign in</a>
+
+        </div>
+        <div class="signUpPage">
+            <a class="topBtn" href="index.html">
+                Sign up
+            </a>
+
+        </div>
+    </div>
+
+    <form onsubmit="return login()" class="formSignup" style="width: 20%; height: 35vh; margin-top: 15%;">
+        <label>Email :</label>
+        <br>
+        <input type="email" class="inputS" name="email" id="email" placeholder="Enter Email">
+        <br>
+        <br>
+        <label>Password :</label>
+        <br>
+        <input type="password" class="inputS" name="password" id="password" placeholder="Enter Passord">
+        <br>
+        <button class="signUpBtn" style="min-width: 235px;">Submit</button>
+    </form>
+    <script src="app.js"></script>
+</body>
+
+</html>

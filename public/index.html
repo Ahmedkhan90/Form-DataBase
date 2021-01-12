@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="head">
+        <div class="signInPage">
+            <a class="topBtn" href="login.html">
+                Sign in</a>
+
+        </div>
+        <div class="signUpPage">
+            <a class="topBtn" href="index.html">
+                Sign up
+            </a>
+
+        </div>
+    </div>
+
+    <form onsubmit="return signup()" class="formSignup">
+        <label>Name :</label>
+        <br>
+        <input type="text" class="inputS" name="name" id="name" placeholder="Enter name">
+        <br>
+        <label>Email :</label>
+        <br>
+        <input type="email" class="inputS" name="email" id="email" placeholder="Enter Email">
+        <br>
+        <label>Password :</label>
+        <br>
+        <input type="password" class="inputS" name="password" id="password" placeholder="Enter Passord">
+        <br>
+        <label>Phone :</label>
+        <br>
+        <input type="number" class="inputS" name="number" id="number" placeholder="Enter Phone Number">
+        <br>
+        <label>Gender :</label>
+        <br>
+        <select name="Gender" class="inputS" id="gender">
+            <option value="Male" class="inputS">Male</option>
+            <option value="Female" class="inputS">Female</option>
+        </select>
+        <br>
+        <br>
+        <button class="signUpBtn">Submit</button>
+    </form>
+    <script src="app.js"></script>
+
+
+</body>
+
+</html>
